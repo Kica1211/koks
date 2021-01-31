@@ -1,0 +1,32 @@
+div#main-header
+    display: flex
+    width: 100%
+    justify-content: space-between
+    position: sticky
+    background-color: #9494BC
+    top: 0
+    font-size: 25px
+    z-index: 1
+    div.part-of-header
+        display: flex
+        align-items: center
+        height: 10vh
+        div.wrap
+            display: flex
+            align-items: center
+            a
+                text-decoration: none
+                div.header-item
+                    padding: 10px
+                    color: rgba(255,255,255,0.75)
+                div.header-title
+                    padding-left: 0
+                    color: white
+                    margin-right: 40px
+                    font-size: 33px
+            &:hover
+                cursor: pointer
+    div.left
+        margin-left: 10%
+    div.right
+        margin-right: 20%
